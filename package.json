@@ -1,0 +1,29 @@
+{
+  "name": "todo_app_using_nodejs",
+  "version": "1.0.0",
+  "description": "TODO Web App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sparsh17/TODO_APP_using_NodeJS.git"
+  },
+  "keywords": [
+    "todo",
+    "app"
+  ],
+  "author": "Sparsh Gagneja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sparsh17/TODO_APP_using_NodeJS/issues"
+  },
+  "homepage": "https://github.com/Sparsh17/TODO_APP_using_NodeJS#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10"
+  }
+}
